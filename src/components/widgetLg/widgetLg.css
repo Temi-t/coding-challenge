@@ -1,0 +1,47 @@
+.widgetLg {
+  padding: 20px;
+  width: 100%;
+  /* margin-right: 20px; */
+}
+.widgetLgTitle {
+  font-size: 22px;
+  font-weight: 600;
+  color: rgb(2, 2, 122);
+}
+.widgetImg {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+}
+/* background-color: rgb(224, 221, 221); */
+
+.widgetLgTable {
+  width: 100%;
+  /* border-spacing: 20px; */
+}
+.header {
+  background: rgba(2, 2, 122, 0.08);
+  color: rgba(2, 2, 122, 0.5);
+  text-align: left;
+}
+.widgetLtTr {
+  border-spacing: 0;
+}
+td {
+  color: blue;
+  font-weight: 600;
+}
+td span {
+  color: rgba(2, 2, 122, 0.5);
+}
+
+.widgetLgUser {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+.widgerLgPrice {
+  color: rgba(0, 128, 0, 0.7);
+}
