@@ -1,7 +1,9 @@
 import './widgetSm.css'
-import {Visibility, Notifications, Create, ShoppingBasket, People, LocalActivity} from "@material-ui/icons"
+import { Notifications, Create, ShoppingBasket, People, LocalActivity} from "@material-ui/icons"
+
 
 function WidgetSm() {
+    
     return (
         <div className="widgetSm">
             <div className="outer-container">
@@ -51,13 +53,20 @@ function WidgetSm() {
                                 <span className="star-seller">Star seller</span>
                                 <span className="star-percent">85%</span>
                             </div>
-                        Progress bar
+                            {/* <div class="w3-light-grey w3-round-xlarge">
+                                <div class="w3-container w3-orange w3-round-xlarge" style={{width: "85%"}}></div>
+                            </div> */}
+                            <progress className="progress" value="85" max="100"> 85% </progress>
                         </div>
                     </div>
                 </div>
             </div>
-            <span className="widgetSmTitle">Recent Orders</span>
-            <ul className="widgetSmList">
+            <div className="title-container">
+                <span className="widgetSmTitle">Recent Orders</span>
+                <span className="see-all">See All</span>
+            </div>
+
+            {/* <ul className="widgetSmList">
                 <li className="widgetSmListItem">
                     <img src="https://source.unsplash.com/random" alt="" className="widgetSmImg" />
                     <div className="widgetSmUser">
@@ -79,7 +88,40 @@ function WidgetSm() {
                     </button>
                 </li>
                 
-            </ul>
+            </ul> */}
+            <table className="widgetSmTable">
+                
+                <tr className="widgetSmTr">
+                    <td className="widgetSmUser">
+                        <img src="https://source.unsplash.com/random" className="widgetImg" alt="user-avatar" />
+                    </td>
+                    <td className="widgetSmName">
+                        Redmi 4x <br/>
+                        <span>2 Minutes Ago</span>
+                    </td>
+                    <td className="widgetSmPrice">+$80.00</td>
+                </tr>
+                <tr className="widgetSmTr">
+                    <td className="widgetSmUser">
+                        <img src="https://source.unsplash.com/random" className="widgetImg" alt="user-avatar" />
+                    </td>
+                    <td className="widgetSmName">
+                        Redmi 4x <br/>
+                        <span>2 Minutes Ago</span>
+                    </td>
+                    <td className="widgetSmPrice">+$80.00</td>
+                </tr>
+                <tr className="widgetSmTr">
+                    <td className="widgetSmUser">
+                        <img src="https://source.unsplash.com/random" className="widgetImg" alt="user-avatar" />
+                    </td>
+                    <td className="widgetSmName">
+                        Redmi 4x <br/>
+                        <span>2 Minutes Ago</span>
+                    </td>
+                    <td className="widgetSmPrice">+$80.00</td>
+                </tr>
+            </table>
             
         </div>
     )

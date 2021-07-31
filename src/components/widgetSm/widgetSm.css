@@ -1,3 +1,15 @@
+/* progress::-moz-progress-bar {
+  background: rgb(255, 165, 0);
+}
+progress::-webkit-progress-value {
+  background: rgb(255, 165, 0);
+}
+progress {
+  color: rgb(255, 165, 0);
+}
+progress {
+  color: orange;
+} */
 .widgetSm {
   flex: 1;
   padding: 20px;
@@ -76,6 +88,9 @@
   width: 100%;
   font-size: 0.8rem;
 }
+.icon {
+  color: blue;
+}
 .item {
   font-weight: 900;
   color: rgba(2, 2, 122, 0.5);
@@ -99,8 +114,24 @@
   color: orange;
   font-size: 1rem;
 }
+.title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
 .widgetSmTitle {
-  font-size: 2rem;
+  font-size: 3rem;
+  font-weight: bold;
+  color: blue;
+}
+.widgetSmTitle {
+  color: blue;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.see-all {
+  color: rgba(0, 0, 255, 0.5);
   font-weight: bold;
 }
 .widgetSmImg {
@@ -127,17 +158,19 @@
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 3rem;
+  margin-bottom: 6rem;
   border: 2px solid rgba(202, 191, 191, 0.5);
 }
 .inner-container {
   display: flex;
   flex-direction: column;
   width: 100%;
+  padding: 7px;
 }
 .star-container {
   width: 100%;
   display: flex;
+  /* margin: 2rem; */
   align-items: center;
   justify-content: space-between;
   padding-left: 2px;
@@ -146,6 +179,7 @@
   font-weight: 900;
   color: blue;
 }
+
 .widgetSmUser {
   display: flex;
   flex-direction: column;
@@ -156,6 +190,12 @@
 .widgetSmTitle {
   font-weight: 600;
   font-size: 1.3rem;
+}
+.widgetSmPrice {
+  color: rgba(0, 128, 0, 0.5);
+}
+td > span {
+  font-size: 0.8rem;
 }
 /* .widgetSmIcon {
   margin-right: 5px;

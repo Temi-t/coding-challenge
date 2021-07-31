@@ -28,6 +28,7 @@
   flex: 8;
   border: none;
   background: transparent;
+  outline: none;
 }
 .home-title {
   color: rgb(2, 2, 122);
