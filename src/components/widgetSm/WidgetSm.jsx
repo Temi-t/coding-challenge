@@ -23,7 +23,7 @@ function WidgetSm() {
                     <div className="img-container">
                         <img src="https://source.unsplash.com/random" alt="" className="widgetSmPulsa" />
                     </div>
-                    <div className="title-container">
+                    <div className="title-container-1">
                         <span className="widgetSmTitle">Konster Pulsa</span>
                     </div>
                     <div className="prod-followers">
@@ -56,12 +56,12 @@ function WidgetSm() {
                             {/* <div class="w3-light-grey w3-round-xlarge">
                                 <div class="w3-container w3-orange w3-round-xlarge" style={{width: "85%"}}></div>
                             </div> */}
-                            <progress className="progress" value="85" max="100"> 85% </progress>
+                            <progress value="85" max="100"> 85% </progress>
                         </div>
                     </div>
                 </div>
             </div>
-            <div className="title-container">
+            <div className="title-container-2">
                 <span className="widgetSmTitle">Recent Orders</span>
                 <span className="see-all">See All</span>
             </div>

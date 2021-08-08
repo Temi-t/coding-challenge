@@ -15,7 +15,6 @@
   object-fit: cover;
   margin-right: 10px;
 }
-/* background-color: rgb(224, 221, 221); */
 
 .widgetLgTable {
   width: 100%;
@@ -33,7 +32,7 @@ td {
   color: blue;
   font-weight: 600;
 }
-td span {
+td > span {
   color: rgba(2, 2, 122, 0.5);
 }
 

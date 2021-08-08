@@ -32,7 +32,7 @@ function WidgetLg() {
                     <td className="widgerLgPrice"> $99.89</td>
                     <td className="widgerLgStatus">
                         Available<br/>
-                        #18k viewers
+                        <span>#18k viewers</span>
                     </td>
                 </tr>
                 <tr className="widgetLgTr">
@@ -49,7 +49,7 @@ function WidgetLg() {
                     <td className="widgerLgPrice"> $99.89</td>
                     <td className="widgerLgStatus">
                         Available<br/>
-                        <span>#18k viewers</span>
+                        <span >#18k viewers</span>
                     </td>
                 </tr>
                 {/* <tr className="widgetLgTr">

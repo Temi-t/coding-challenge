@@ -1,15 +1,14 @@
-/* progress::-moz-progress-bar {
-  background: rgb(255, 165, 0);
-}
 progress::-webkit-progress-value {
   background: rgb(255, 165, 0);
 }
+progress::-moz-progress-bar {
+  background: rgb(255, 165, 0);
+}
+
 progress {
   color: rgb(255, 165, 0);
 }
-progress {
-  color: orange;
-} */
+
 .widgetSm {
   flex: 1;
   padding: 20px;
@@ -18,6 +17,7 @@ progress {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  /* margin-top: 3rem; */
 }
 .notif-edit-container {
   height: 50px;
@@ -35,7 +35,7 @@ progress {
   color: rgb(2, 2, 122);
 }
 .img-container {
-  margin-top: 1rem;
+  /* margin-top: 3rem; */
   width: 100%;
   display: flex;
   justify-content: center;
@@ -66,7 +66,7 @@ progress {
   display: flex;
   justify-content: center;
   border: 2px solid rgba(202, 191, 191, 0.5);
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   height: 3rem;
   padding-top: 10px;
   padding: 5px;
@@ -114,7 +114,14 @@ progress {
   color: orange;
   font-size: 1rem;
 }
-.title-container {
+.title-container-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.title-container-2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -158,7 +165,7 @@ progress {
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 6rem;
+  margin-bottom: 9rem;
   border: 2px solid rgba(202, 191, 191, 0.5);
 }
 .inner-container {
@@ -179,7 +186,6 @@ progress {
   font-weight: 900;
   color: blue;
 }
-
 .widgetSmUser {
   display: flex;
   flex-direction: column;
@@ -197,7 +203,3 @@ progress {
 td > span {
   font-size: 0.8rem;
 }
-/* .widgetSmIcon {
-  margin-right: 5px;
-  font-size: 16px !important;
-} */
