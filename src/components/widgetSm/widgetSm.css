@@ -1,4 +1,4 @@
-progress::-webkit-progress-value {
+/* progress::-webkit-progress-value {
   background: rgb(255, 165, 0);
 }
 progress::-moz-progress-bar {
@@ -7,17 +7,17 @@ progress::-moz-progress-bar {
 
 progress {
   color: rgb(255, 165, 0);
-}
+} */
 
 .widgetSm {
   flex: 1;
   padding: 20px;
+  height: 100%;
 }
 .outer-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* margin-top: 3rem; */
 }
 .notif-edit-container {
   height: 50px;
@@ -52,7 +52,7 @@ progress {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin-top: 5rem;
+  margin-top: 8rem;
   width: 100%;
   height: 15rem;
 }
@@ -96,6 +96,7 @@ progress {
   color: rgba(2, 2, 122, 0.5);
   width: 100%;
   font-size: 0.7rem;
+  padding: 5px;
 }
 .followers {
   height: 90%;
@@ -125,6 +126,7 @@ progress {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 1rem;
   width: 100%;
 }
 .widgetSmTitle {
@@ -199,6 +201,9 @@ progress {
 }
 .widgetSmPrice {
   color: rgba(0, 128, 0, 0.5);
+}
+td {
+  margin-bottom: 1rem;
 }
 td > span {
   font-size: 0.8rem;

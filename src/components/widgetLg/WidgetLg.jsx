@@ -16,7 +16,6 @@ function WidgetLg() {
                     <th className="brands header">Brand</th>
                     <th className="price header">Price</th>
                     <th className="status header">Status</th>
-
                 </tr>
                 <tr className="widgetLgTr">
                     <td className="widgetLgUser">

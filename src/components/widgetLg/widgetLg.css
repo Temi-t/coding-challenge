@@ -21,7 +21,7 @@
   /* border-spacing: 20px; */
 }
 .header {
-  background: rgba(2, 2, 122, 0.08);
+  background: rgba(2, 2, 122, 0.06);
   color: rgba(2, 2, 122, 0.5);
   text-align: left;
 }
@@ -34,6 +34,9 @@ td {
 }
 td > span {
   color: rgba(2, 2, 122, 0.5);
+}
+td {
+  margin-bottom: 1.3rem;
 }
 
 .widgetLgUser {
