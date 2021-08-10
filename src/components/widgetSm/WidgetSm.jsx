@@ -47,7 +47,9 @@ function WidgetSm() {
                         </div>
                     </div>
                     <div className="reputation">
-                        <LocalActivity className="star-icon"/>
+                        <div className="star-icon-container">
+                            <LocalActivity className="star-icon"/>
+                        </div>
                         <div className="inner-container">
                             <div className="star-container">
                                 <span className="star-seller">Star seller</span>
@@ -66,29 +68,6 @@ function WidgetSm() {
                 <span className="see-all">See All</span>
             </div>
 
-            {/* <ul className="widgetSmList">
-                <li className="widgetSmListItem">
-                    <img src="https://source.unsplash.com/random" alt="" className="widgetSmImg" />
-                    <div className="widgetSmUser">
-                        <span className="widgetSmUsername">Anna Keller</span>
-                        <span className="widgetSmUserTitle">Software Engineer</span>   
-                    </div>
-                    <button className="widgetSmButton">
-                        <Visibility className="widgetSmIcon" />Display
-                    </button>
-                </li>
-                <li className="widgetSmListItem">
-                    <img src="https://source.unsplash.com/random" alt="" className="widgetSmImg" />
-                    <div className="widgetSmUser">
-                        <span className="widgetSmUsername">Anna Keller</span>
-                        <span className="widgetSmUserTitle">Software Engineer</span>   
-                    </div>
-                    <button className="widgetSmButton">
-                        <Visibility className="widgetSmIcon" />Display
-                    </button>
-                </li>
-                
-            </ul> */}
             <table className="widgetSmTable">
                 
                 <tr className="widgetSmTr">

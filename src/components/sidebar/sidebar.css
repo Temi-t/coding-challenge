@@ -1,7 +1,6 @@
 .sidebar {
   flex: 1;
   height: calc(100vh - 50px);
-  /* background-color: dark */
   position: sticky;
   top: 0;
   left: 0;
@@ -37,6 +36,7 @@
 .sidebarTitle {
   font-size: 1rem;
   color: rgb(4, 6, 109);
+  margin-bottom: 1rem;
 }
 .sidebarList {
   list-style: none;
