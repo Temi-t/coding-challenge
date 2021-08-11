@@ -40,5 +40,6 @@
 .homeWidgets {
   display: flex;
   margin: 0.625rem;
+  border-radius: 5px;
   border: 2px solid rgba(202, 191, 191, 0.5);
 }

@@ -70,6 +70,7 @@ progress {
   height: 3rem;
   padding-top: 10px;
   padding: 5px;
+  border-radius: 5px;
 }
 .icon-container {
   padding-right: 10px;
@@ -174,6 +175,7 @@ progress {
   justify-content: space-between;
   align-items: center;
   margin-bottom: 9rem;
+  border-radius: 4px;
   border: 2px solid rgba(202, 191, 191, 0.5);
 }
 
